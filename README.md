@@ -195,7 +195,7 @@ Start off by requiring Axios so that we can make HTTP requests and `uuid/v4` to 
 
 ```javascript
 const axios = require('axios');
-const uuid = require('uuid/v4');
+const uuidv4 = require('uuid/v4');
 ```
 
 We can then add a new task to Todoist whenever there is a new thread:
